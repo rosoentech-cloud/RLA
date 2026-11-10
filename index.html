@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rosoen Student Resources</title>
+  <meta name="description" content="Download Rosoen GED practice lessons: presentations, recordings, and handouts.">
+  <meta name="theme-color" content="#5b21b6">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Figtree:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="styles.css?v=4">
+</head>
+<body>
+  <a class="skip-link" href="#lessons">Skip to lessons</a>
+
+  <!-- Exam reminder. Edit examReminder.text in resources.json to change it. -->
+  <div class="exam-banner" id="examBanner">
+    <p id="examText">📚 Your exam is next week! Continue practising every day, review your lesson materials, and focus on the topics you find most challenging. Use the resources below to prepare and build your confidence.</p>
+  </div>
+
+  <header class="hero">
+    <svg class="hero-sun" viewBox="0 0 200 200" aria-hidden="true" focusable="false">
+      <circle cx="100" cy="100" r="78" fill="#facc15"/>
+      <circle cx="100" cy="100" r="96" fill="none" stroke="#facc15" stroke-width="3" stroke-dasharray="3 12" stroke-linecap="round"/>
+    </svg>
+    <div class="hero-inner">
+      <p class="brand">Rosoen</p>
+      <h1>Student resources</h1>
+      <p class="lead">Pick your lesson, choose the version you need, and download it in one tap.</p>
+    </div>
+    <svg class="hero-wave" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+      <path d="M0,46 C240,92 480,4 720,30 C960,56 1200,12 1440,44 L1440,80 L0,80 Z" fill="#f3f9ff"/>
+    </svg>
+  </header>
+
+  <main class="wrap" id="main">
+
+    <!-- Text size: students can make the text larger. The choice is saved on their device. -->
+    <section class="text-size" aria-labelledby="text-size-label">
+      <div class="text-size-head">
+        <p class="text-size-label" id="text-size-label">Text size</p>
+        <p class="text-size-help">Small is the default. Choose a larger size if the text is hard to read. Your choice is saved on this device.</p>
+      </div>
+      <div class="size-buttons" role="group" aria-labelledby="text-size-label">
+        <button type="button" class="size-btn" data-size="small" aria-pressed="true">Small</button>
+        <button type="button" class="size-btn" data-size="medium" aria-pressed="false">Medium</button>
+        <button type="button" class="size-btn" data-size="large" aria-pressed="false">Large</button>
+        <button type="button" class="size-btn" data-size="xlarge" aria-pressed="false">Extra large</button>
+      </div>
+    </section>
+
+    <section class="block" id="lessons" aria-labelledby="lessons-heading">
+      <div class="block-head">
+        <h2 id="lessons-heading">1. Choose a lesson</h2>
+        <div class="refresh">
+          <p class="meta" id="lastChecked"></p>
+          <button type="button" class="btn btn-ghost" data-refresh>Refresh availability</button>
+        </div>
+      </div>
+      <p class="notice" id="loadMessage" role="status" hidden></p>
+      <fieldset class="choices lessons" id="lessonList">
+        <legend class="visually-hidden">Lessons</legend>
+        <noscript><p class="notice">This page needs JavaScript to show the lesson list.</p></noscript>
+      </fieldset>
+    </section>
+
+    <section class="block" id="versions" aria-labelledby="versions-heading" hidden>
+      <h2 id="versions-heading">2. Choose a version</h2>
+      <fieldset class="choices" id="versionList">
+        <legend class="visually-hidden">Versions</legend>
+      </fieldset>
+    </section>
+
+    <section class="block" id="downloads" aria-labelledby="downloads-heading" hidden>
+      <h2 id="downloads-heading">3. Download</h2>
+      <div class="downloads" id="downloadPanel"></div>
+      <p class="reminder" id="studyReminder">Keep practising! Review one topic at a time, test yourself, and revisit any questions you get wrong.</p>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Rosoen practice materials. These are not official GED test questions. GED® is a registered trademark of the American Council on Education.</p>
+      <p class="meta" id="updatedNote"></p>
+    </div>
+  </footer>
+
+  <div class="visually-hidden" id="liveRegion" aria-live="polite"></div>
+  <script src="app.js?v=4" defer></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+{
+  "_help": "Edit the values only. Keep quotation marks, commas, and brackets exactly as they are. README.md explains each field.",
+  "schemaVersion": 1,
+  "lastUpdated": "2026-11-10",
+  "examReminder": {
+    "show": true,
+    "text": "📚 Your exam is next week! Continue practising every day, review your lesson materials, and focus on the topics you find most challenging. Use the resources below to prepare and build your confidence."
+  },
+  "studyReminder": "Keep practising! Review one topic at a time, test yourself, and revisit any questions you get wrong.",
+  "comingSoonMessage": "🎙️ Your recorded lesson is being uploaded. Please check back in a few minutes. In the meantime, download the available materials and continue practising for next week’s exam.",
+  "lessons": [
+    {
+      "id": "rla-section-1",
+      "title": "GED RLA Section 1",
+      "description": "How the RLA test is built, then reading closely, arguments and evidence, informational and literary texts, comparing texts, grammar, the extended response, and a final review.",
+      "lastUpdated": "2026-11-10",
+      "presentation": {
+        "fileType": "PowerPoint (.pptx)",
+        "path": "downloads/GED_RLA_Section_1.pptx",
+        "available": true,
+        "lastUpdated": "2026-11-10"
+      },
+      "speakerNotes": {
+        "status": "none",
+        "fileType": "PowerPoint with speaker notes (.pptx)",
+        "path": "",
+        "available": false,
+        "lastUpdated": "",
+        "note": "This deck has no speaker notes. Keep status as none."
+      },
+      "recording": {
+        "status": "coming_soon",
+        "fileType": "MP4 video",
+        "path": "recordings/rla-section-1-recording.mp4",
+        "lastUpdated": "",
+        "note": "PLACEHOLDER: no recording has been uploaded yet. When the video is in recordings/, set status to available and add the date."
+      },
+      "handouts": []
+    },
+    {
+      "id": "grammar-and-language",
+      "title": "Grammar and Language",
+      "description": "Parts of speech, clauses, sentence boundaries, subject-verb agreement, pronouns, modifiers, punctuation, word choice, and cohesion, with cumulative practice.",
+      "lastUpdated": "2026-11-10",
+      "presentation": {
+        "fileType": "PowerPoint (.pptx)",
+        "path": "downloads/Rosoen_GED_Grammar_Language_Recording.pptx",
+        "available": true,
+        "lastUpdated": "2026-11-10"
+      },
+      "speakerNotes": {
+        "status": "instructor_only",
+        "fileType": "PowerPoint with speaker notes (.pptx)",
+        "path": "",
+        "available": false,
+        "lastUpdated": "",
+        "note": "The original deck's speaker notes are a teacher's script and are not in this repository. To offer them to students, upload a notes version to downloads/, set path and available, then set status to student_accessible."
+      },
+      "recording": {
+        "status": "coming_soon",
+        "fileType": "MP4 video",
+        "path": "recordings/grammar-and-language-recording.mp4",
+        "lastUpdated": "",
+        "note": "PLACEHOLDER: no recording has been uploaded yet. The source file is named Recording, but it does not contain a video."
+      },
+      "handouts": []
+    },
+    {
+      "id": "rla-tuesday",
+      "title": "RLA Tuesday Session",
+      "description": "Central ideas, inference, vocabulary in context, literary reading, paired arguments, evidence quality, cross-text comparison, editing, and two model extended responses.",
+      "lastUpdated": "2026-11-10",
+      "presentation": {
+        "fileType": "PowerPoint (.pptx)",
+        "path": "downloads/Rosoen_GED_RLA_Tuesday_Presenatation.pptx",
+        "available": true,
+        "lastUpdated": "2026-11-10"
+      },
+      "speakerNotes": {
+        "status": "instructor_only",
+        "fileType": "PowerPoint with speaker notes (.pptx)",
+        "path": "",
+        "available": false,
+        "lastUpdated": "",
+        "note": "The original deck's speaker notes are a teacher's script and are not in this repository. Change status to student_accessible only after you upload a notes version you want students to see."
+      },
+      "recording": {
+        "status": "coming_soon",
+        "fileType": "MP4 video",
+        "path": "recordings/rla-tuesday-recording.mp4",
+        "lastUpdated": "",
+        "note": "PLACEHOLDER: no recording has been uploaded yet."
+      },
+      "handouts": []
+    }
+  ]
+}
