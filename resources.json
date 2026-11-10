@@ -26,7 +26,7 @@
         "path": "",
         "available": false,
         "lastUpdated": "",
-        "note": "This deck has no speaker notes. Keep status as none."
+        "note": "The notes pages in this deck hold only slide numbers, so there are no notes to share. Keep status as none."
       },
       "recording": {
         "status": "coming_soon",
@@ -49,12 +49,12 @@
         "lastUpdated": "2026-11-10"
       },
       "speakerNotes": {
-        "status": "instructor_only",
+        "status": "student_accessible",
         "fileType": "PowerPoint with speaker notes (.pptx)",
-        "path": "",
-        "available": false,
-        "lastUpdated": "",
-        "note": "The original deck's speaker notes are a teacher's script and are not in this repository. To offer them to students, upload a notes version to downloads/, set path and available, then set status to student_accessible."
+        "path": "downloads/Rosoen_GED_Grammar_Language_Recording_speaker_notes.pptx",
+        "available": true,
+        "lastUpdated": "2026-11-10",
+        "note": "Speaker notes version, shared with students."
       },
       "recording": {
         "status": "coming_soon",
@@ -77,12 +77,12 @@
         "lastUpdated": "2026-11-10"
       },
       "speakerNotes": {
-        "status": "instructor_only",
+        "status": "student_accessible",
         "fileType": "PowerPoint with speaker notes (.pptx)",
-        "path": "",
-        "available": false,
-        "lastUpdated": "",
-        "note": "The original deck's speaker notes are a teacher's script and are not in this repository. Change status to student_accessible only after you upload a notes version you want students to see."
+        "path": "downloads/Rosoen_GED_RLA_Tuesday_Presentation_speaker_notes.pptx",
+        "available": true,
+        "lastUpdated": "2026-11-10",
+        "note": "Speaker notes version, shared with students."
       },
       "recording": {
         "status": "coming_soon",
